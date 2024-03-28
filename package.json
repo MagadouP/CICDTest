@@ -1,16 +1,16 @@
 {
-  "name": "cicdtest",
+  "name": "cypresstests",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "spec.hw02-modul2.cy.js",
   "scripts": {
-    "test": "cypress run",
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "cypress": "^9.7.0"
+  "dependencies": {
+    "artillery": "^2.0.8",
+    "cypress": "^13.6.6"
   }
 }
